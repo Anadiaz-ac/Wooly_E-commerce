@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+    <title>Wooly</title>
+</head>
+<body>
+
+        <section id="header">
+
+            <a href="#"><img src="img/Oveja.png" class="logo" alt="wooly amigurumis" width="60px"></a>
+
+            <div>
+                <ul id="listnav">
+                    <a href="#" id="X"><span class="iconify" data-icon="bi:x-lg"></span></a>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="shop.html">Comprar</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li id="bag"><a class="active" href="bag.html"><span class="iconify" data-icon="akar-icons:shopping-bag"></span></a></li>
+                </ul>
+            </div>
+            <div id="movil">
+                <a href="bag.html"><span class="iconify" data-icon="akar-icons:shopping-bag"></span></a>
+                <i id="barra" class="iconobarra"><span class="iconify" data-icon="ci:list-checklist" data-width="24" data-height="24"></span></span></i>
+            </div>
+
+        </section>
+    
+        <section id="page-header">
+
+               <h2>#Carrito</h2> 
+               <p>¡Nos encanta escucharte!</p>
+        </section>
+
+        <section id="carro" class="section-p1">
+
+            <div class="container">
+                <div class="row">
+
+                    <main id="items" class="col-sm-8 row"></main>
+
+                    <aside class="col-sm-4">
+                        <h2>Carrito</h2>
+
+                        <ul id="carrito" class="list-group"></ul> 
+                        <hr><br>
+
+                        <p class="text-right">Total: <span id="total"></span>
+                        </p>
+                        <button id="boton-vaciar" class="btn btn-danger">Vaciar carrito</button> <br> <br>
+                        <button id="comprar" onclick="comprar()">Realizar compra</button>
+                    </aside>
+                </div>
+            </div>
+        
+
+        </section>
+
+        <footer id="footer" class="section-p1">
+            <div>
+                <img src="img/Oveja2.png" alt="logo" width="150px">
+            </div>
+            <div>
+                <h4>Contacto</h4>
+                <p><strong>E-mail:</strong> wooly.med@gmail.com</p>
+                <p><strong>Cel: </strong>+57 3113164908</p>
+                <p><strong>Dirección: </strong>calle 39 sur #44-31</p>
+            </div>
+            <div>
+                <h3>Siguenos en instagram!</h3>
+                <a href="https://www.instagram.com/wooly_amigurumis/" target="_blank"><span class="iconify" data-icon="fa:instagram" data-width="40" data-height="40"></span></a>
+            </div>
+        </footer>
+
+
+        <script src="script.js"></script>
+
+
+
+
+        
+
+</body>
+</html>
